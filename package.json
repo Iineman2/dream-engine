@@ -1,0 +1,17 @@
+{
+  "name": "dream-engine",
+  "version": "0.4.0",
+  "private": true,
+  "description": "The Dream Engine: a local-only, consent-first research app for targeted dream incubation. Timed cues, randomised A/B/control study, blind scoring.",
+  "license": "MIT",
+  "author": "The Dream Engineering Project contributors",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "serve": "node serve.mjs",
+    "qa": "node qa/browser-qa.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.1"
+  }
+}
