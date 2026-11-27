@@ -28,8 +28,11 @@ dream themes.
 
 - **Conditions:**
   - **A and B:** a nap cued with target A or target B.
-  - **Control:** a nap with the neutral cue "Relax, and let your mind wander."
-  - All three get the same wake prompt ("Tell me what you're thinking about."),
+  - **Control:** a nap with the neutral cue "Remember to observe your
+    thoughts." (v0.3: "Relax, and let your mind wander.")
+  - All three get the same wake prompt ("You're falling asleep. Please tell me,
+    what's going through your mind?"; v0.3: "Tell me what you're thinking
+    about."),
     the same number of cues and the same timing rules. Only the content differs.
 - **Allocation:** blocked randomisation in blocks of 3, from a seed fixed when the
   study is created. The default is 8 blocks, or 24 naps. The condition is
@@ -113,10 +116,11 @@ for that thing more than:
 
 Earlier work could only show that people who *happened* to dream about a task
 improved more (Wamsley et al. 2010), which is confounded with motivation and
-interest. Konkoly et al. 2025 point this out, and fix it by cueing one of two
-pre-sleep tasks at random. Phase 2 uses the same idea and adds the two controls
-their follow-up lacked: no no-cue baseline and no wake comparison
-(Konkoly et al. 2026).
+interest. Konkoly et al. 2025 point this out, and address it for dream content
+by randomly assigning which of two pre-sleep tasks was cued in REM, though the
+link to later function remained correlational. Phase 2 uses the same idea and
+adds the two controls their follow-up (Konkoly et al. 2026) lacked: a no-cue
+baseline and an awake comparison.
 
 ### Every session has the same tasks
 
@@ -228,7 +232,7 @@ Results are labelled **provisional** until there are outcomes from at least
 
 ## Safety rules (enforced by the app)
 
-- Daytime sessions only, between 06:00 and 22:00. No night-time use.
+- Sessions can only start between 06:00 and 22:00.
 - At most 5 wake-ups per nap, 2 sessions a day, and 2 h between sessions.
 - The study pauses automatically when:
   - a session is marked distressing;
@@ -260,13 +264,15 @@ Results are labelled **provisional** until there are outcomes from at least
 - Konkoly KR, Morris DJ, Cho M, Hurka K, Torres-Platas SG, Baehr L, Paller KA
   (2025). Investigating dreams by strategically presenting sounds during REM
   sleep to reactivate waking experiences. *Neuropsychologia* 217:109229.
+  doi:10.1016/j.neuropsychologia.2025.109229
 - Konkoly KR, Morris DJ, Hurka K, Martinez AM, Sanders KEG, Paller KA (2026).
   Creative problem-solving after experimentally provoking dreams of unsolved
-  puzzles during REM sleep. *Neuroscience of Consciousness* niaf067.
+  puzzles during REM sleep. *Neuroscience of Consciousness* 2026(1):niaf067. doi:10.1093/nc/niaf067
 - Wamsley EJ, Tucker M, Payne JD, Benavides JA, Stickgold R (2010). Dreaming of
   a learning task is associated with enhanced sleep-dependent memory
   consolidation. *Current Biology* 20:850–855.
 - Aviram L, Soffer-Dudek N (2018). Lucid dreaming: intensity, but not frequency,
   is inversely related to psychopathology. *Frontiers in Psychology* 9:384.
+  doi:10.3389/fpsyg.2018.00384
   Deliberate induction predicted increases in dissociation and schizotypy over
   2 months.

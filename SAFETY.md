@@ -44,8 +44,7 @@ No electrical, magnetic, ultrasonic or other brain stimulation. Contributions
 that add such channels will not be accepted.
 
 **Daytime naps only.**
-The app refuses to start outside 06:00 to 22:00. It never wakes you during
-night-time sleep, and the project does not plan to.
+Sessions can only start between 06:00 and 22:00.
 
 **Your sleep comes first.**
 The study is designed so that its measurement never outranks your wellbeing,
@@ -54,14 +53,15 @@ and any setting or result that conflicts with that should lose.
 **Your data stays with you.**
 Everything is stored in your browser on your device. There are no accounts,
 uploads or analytics, and the page's content security policy blocks outbound
-requests. Voice recordings are made only in the report window after each
-wake-up.
+requests. During a nap, the microphone records only after each wake-up (your
+report and your "were you asleep?" answer). Outside naps it records only when
+you choose to record your own cue lines.
 
 ## Limits enforced by the app
 
 | Rule | Value |
 |---|---|
-| Session window | 06:00 to 22:00 local time only |
+| Session window | Sessions can start only between 06:00 and 22:00 local time |
 | Wake-ups per nap | at most 5 |
 | Sessions per day | at most 2 |
 | Gap between sessions | at least 2 hours |
@@ -107,9 +107,9 @@ Pausing and quitting are always a valid, complete outcome of the study.
 - Use the app only when it is safe to be asleep: not while driving, not near
   water, not responsible for anyone.
 - Turn on Do Not Disturb and put the phone on charge before a nap.
-- Keep the volume low. The app tracks which cues woke you and steers the
-  volume downwards, but you should still check it while awake first (use
-  Rehearse).
+- Keep the volume low. The app lowers the volume after a cue wakes you and
+  raises it slightly after cues that don't, up to the cap you set, but you
+  should still check it while awake first (use Rehearse).
 - Do not combine it with alcohol, sedatives or other substances that affect
   sleep. The check-in asks about substances so your own data can show it.
 

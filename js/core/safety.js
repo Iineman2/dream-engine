@@ -1,4 +1,4 @@
-// Guardrails. V0 is a nap protocol: it never runs during night-time sleep,
+// Guardrails. V0 is a nap protocol: sessions can only start in a daytime window,
 // caps how often it can wake you, and pauses itself when your own ratings say
 // sleep or mood are suffering.
 
@@ -17,7 +17,7 @@ export const CONSENT_VERSION = 1;
 export const CONSENT_ITEMS = [
   { key: 'cues', text: 'Play audio cues (a short sound motif and a spoken phrase) while I fall asleep.' },
   { key: 'wakeups', text: 'Wake me with a spoken prompt a few times per nap (never more than 5).' },
-  { key: 'mic', text: 'Record my voice only during the report window after each wake-up.' },
+  { key: 'mic', text: 'During a nap, record my voice only after each wake-up. Outside naps, only when I choose to record my own cue lines.' },
   { key: 'local', text: 'All data stays on this device. Nothing is uploaded, and I am responsible for exporting backups.' },
   { key: 'stop', text: 'I will pause or stop if my sleep, mood or daytime functioning gets worse.' },
 ];
@@ -98,7 +98,7 @@ export function canStartSession({ now = new Date(), state, study, speed = 1 }) {
     const nowMin = now.getHours() * 60 + now.getMinutes();
     if (nowMin < w.startMin || nowMin >= w.endMin) {
       const f = (m) => `${String(Math.floor(m / 60)).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
-      reasons.push(`Nap sessions run between ${f(w.startMin)} and ${f(w.endMin)}. V0 never wakes you during night-time sleep.`);
+      reasons.push(`Nap sessions can only start between ${f(w.startMin)} and ${f(w.endMin)}, to keep them away from night-time sleep.`);
     }
     const real = sessions.filter(realSession);
     const today = real.filter((s) => sameLocalDay(new Date(s.startedAt), now));

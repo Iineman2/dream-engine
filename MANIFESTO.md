@@ -13,7 +13,7 @@ We think those worlds can be engineered. Not by mystics, not by marketers, but b
 The sleeping brain still listens. A single spoken line at the edge of sleep can carry a theme into a dream. This is not a hope; it has been measured. We start from what is measured.
 
 **2. Measure everything.**
-A dream we can't measure is a story. Every session is randomised. Every report is scored blind. Controls are mandatory. A cue that "feels like it worked" proves nothing until the data agrees.
+A dream we can't measure is a story. Study sessions are randomised. Reports are scored with the condition hidden, and an independent rater is supported. Controls are mandatory. A cue that "feels like it worked" proves nothing until the data agrees.
 
 **3. Say what is known, and what is not.**
 Findings are findings. Hypotheses are labelled as hypotheses. Null results get published with the same weight as wins. When we don't know, we say so.

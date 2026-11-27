@@ -41,33 +41,42 @@ so. There is no real-sleep data yet.
 
 ## The science in brief
 
-Everything here is a published finding. Full references, with authors, journal
-and DOI, are in [docs/SCIENCE.md](docs/SCIENCE.md).
+Each point below is a published finding unless marked as our inference. Full
+references, with authors, journal and DOI, are in
+[docs/SCIENCE.md](docs/SCIENCE.md).
 
 - **A spoken cue at sleep onset steers dreams.** Horowitz et al. (2023, *Sci
   Rep*) played "Remember to think of a tree." as people fell asleep. The tree
-  appeared in **70%** of dream reports, against **1.4%** without the cue.
-  Cueing awake gave about **52%**. People whose dreams took in the theme were
-  more creative afterwards than people who only slept.
+  appeared in an average of **70%** of each participant's reports, against
+  **1.4%** in a nap group cued only to observe their thoughts.
+  Cueing awake gave about **52%**. The cued nap group scored higher on
+  creativity than an un-cued nap group, and more theme incorporation predicted
+  higher scores.
   [doi:10.1038/s41598-023-31361-w](https://doi.org/10.1038/s41598-023-31361-w)
-- **It works at home.** A 2024 remote study (Bellaiche et al.) reported
-  **91%** incorporation.
-- **Voice matters.** Unfamiliar voices caused more micro-arousals in sleep than
-  familiar ones (0.59 against 0.41; Ameen et al., 2022, *J Neurosci*), and
-  angry voices increased arousals in non-REM sleep (Moyne et al., 2022). So the
-  cue should be your own voice, calm and quiet.
+- **It works at home.** A 2024 remote, sensor-free online study (Bellaiche et
+  al., *Frontiers in Sleep* 3:1258345) found that **91%** of participants (73
+  of 80) reported the cued item at least once.
+- **Voice matters.** Stimuli in non-REM sleep with an unfamiliar voice had a
+  larger relative treatment effect on arousals than a familiar voice (0.59
+  against 0.41, where 0.5 means no difference; Ameen et al., 2022, *J
+  Neurosci*), and angry voices increased arousals in non-REM sleep (Moyne et
+  al., 2022). Our inference: the cue should be a familiar voice, ideally your
+  own (untested), calm and quiet.
 - **Sleeping brains can be cued, in non-REM.** A meta-analysis found cueing
-  memories in non-REM sleep works (g = 0.32) and found no effect in REM (Hu et
-  al., 2020, *Psychol Bull*).
+  memories in sleep works overall (g = 0.29), in NREM2 (g = 0.32) and slow-wave
+  sleep (g = 0.27), with no significant effect in REM (Hu et al., 2020,
+  *Psychol Bull*).
 - **Two-way contact with dreamers is possible.** Konkoly et al. (2021, *Curr
   Biol*) held real-time conversations with lucid dreamers.
-- **Smell is not a reliable emotion dial.** Two recent studies (2023, 2024)
-  found it does not reliably set dream emotion.
+- **Smell is not a reliable emotion dial.** Two recent studies (Okabe & Abe,
+  2023, *Sci Rep*; Martinec Nováková et al., 2024, *Sci Rep*) found it does
+  not reliably set dream emotion.
 - **REM is emotion-led.** In REM, emotion centres (amygdala) are up and
   executive control (dorsolateral prefrontal) is down (Maquet et al., 1996,
   *Nature*).
-- **The gap.** To our knowledge, no validated consumer device yet triggers
-  cues from live sleep stage at home.
+- **The gap (our inference).** To our knowledge, no validated consumer device
+  yet delivers dream-incubation cues triggered by detected sleep onset or REM
+  at home.
 
 ## The framework: gate, emotion, meaning
 
@@ -211,9 +220,10 @@ any real naps count as data:
   in a run-in, then freeze it in the locked protocol.
 - **Not every setting is locked.** Plan: lock all study settings, require one
   voice type, and normalise loudness.
-- **It is a package, not a pure replication.** The pre-sleep emotion binding
-  and the sleep-onset start line are additions to the published protocol, so
-  results test the whole package.
+- **It is a package, not a pure replication.** The additions are the pre-sleep
+  emotion binding, a cue at the estimated sleep onset of every round (Horowitz
+  cued only after each report), and a timer in place of sensor-detected sleep
+  onset, so results test the whole package.
 - **The emotion-to-idea link analysis is descriptive only.**
 
 ## Safety and not medical advice
