@@ -1,6 +1,8 @@
 # The Dream Engineering Manifesto
 
-**Scientific dream engineering research.**
+**Understanding mental reality.**
+
+*Scientific dream engineering research.*
 
 Every night, the brain builds worlds no one designed. Vivid, emotional, impossible — and gone by morning.
 We think those worlds can be engineered. Not by mystics, not by marketers, but by method.

@@ -9,7 +9,9 @@
 
 # The Dream Engineering Project
 
-### Scientific dream engineering research.
+### Understanding mental reality.
+
+*Scientific dream engineering research.*
 
 [**Read the manifesto**](MANIFESTO.md) · [The science](docs/SCIENCE.md) · [Protocol](docs/PROTOCOL.md) · [Safety](SAFETY.md) · [Contributing](CONTRIBUTING.md)
 
